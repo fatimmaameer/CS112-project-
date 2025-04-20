@@ -1,0 +1,7 @@
+
+Pure Virtual Functions :
+Pure virtual funstions are a specal case of virtual functions . While the typical virtual fucntions have a implementation in base class 
+and a different application in the derived classes , A pure virtual function has no base class implementation whatsoever and is purely 
+meant to be overridden in the derived hence we call it Pure virtual functions . In base class it is simply equated to zero . 
+like this :   virtual void displayData() = 0
+
