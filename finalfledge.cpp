@@ -1491,12 +1491,12 @@ void climateSummit() {
         // sleep(2);
 
         if (choice - 1 == bestChoice[round]) {
-            cout << CYAN << "? The Council PASSED your policy!\n";
+            cout << CYAN << "The Council PASSED your policy!\n";
             correctChoices++;  // increase your score when answer is correct
-            cout << WHITE << "Ã¢Å“â€œ Correct choice!\n";
+            cout << WHITE << "Correct choice!\n";
         } else {
             cout << CYAN << "? Your policy was REJECTED by the council.\n";
-            cout << WHITE << "Ã¢Å“â€” Incorrect choice.\n";
+            cout << WHITE << "Incorrect choice.\n";
         }
 
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
